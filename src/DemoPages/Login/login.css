@@ -1,0 +1,231 @@
+/* Inputs */
+.login-input{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-decoration: none;
+  position: relative;
+  width: 65%;
+  display: block;
+  margin: 30px auto 8px;
+  font-size: 17px;
+  color: #333;
+  padding: 8px;
+  border-radius: 42px;
+  border: none;
+  background: #fbfbfb;
+  -webkit-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  height: 55px;
+  font-size: 16px;
+  padding: 16px 10px;
+}
+
+#user-icon{
+  margin-left: 12px;
+}
+
+.user-input{
+  border: none;
+  margin-left: 11px;
+  width: 240px;
+  background-color: #fbfbfb;
+}
+
+.login-button{
+  margin: 20px auto;
+  width: 165px;
+  height: 50px;
+}
+
+.finger{
+  margin: 40px 200px;
+  color: #fbfbfb;
+}
+
+#forgotten:hover{
+  color: rgba(255,255,255,.6);
+}
+
+#forgotten-container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 260px;
+  height: 180px;
+  border-radius: 10px;
+  background: rgba(3,3,3,0.25);
+  box-shadow: 1px 1px 50px #000;
+  display: none;
+}
+
+
+#remember{
+  font-size: 13px;
+  font-family: 'Hind', sans-serif;
+  color: rgba(255,255,255,.5);
+  top: 7px;
+  left: 20px;
+}
+
+#forgotten{
+  position: relative;
+  font-size: 15px;
+  font-family: 'Hind', sans-serif;
+  color: rgb(224 224 224);
+  cursor: pointer;
+  text-decoration: underline;
+  -webkit-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  margin-top: 0px;
+  padding-top: -6px;
+  text-align: end;
+  display: block;
+  margin-right: 88px;
+}
+
+#is-account{
+  color: rgba(255,255,255);
+  font-size: 15px;
+  text-align: center;
+}
+
+#to-register{
+  text-decoration: underline !important;
+  color: white;
+}
+
+#to-register:hover{
+  transition: 0.4s ease-out;
+  cursor: pointer;
+  color: #e0e0e0;
+}
+
+#user{
+  color: rgb(224 224 224);
+}
+
+input:focus{
+  outline: none;
+  color: #333;
+  transition: 1s;
+}
+
+h1{
+  font-family: 'Open Sans Condensed', sans-serif;
+  position: relative;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 35px;
+  color: #323538;
+  font-weight: 1000;
+  letter-spacing: 9px;
+}
+
+body { 
+  background: url('/images/background/loginbg.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+#container{
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 30px auto;
+  width: 470px;
+  height: 630px;
+  border-radius: 25px;
+  background: rgb(0 6 16 / 64%);
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: 1px 1px 3px #000;
+}
+
+.horizontal-line{
+  background-color: #35383c;
+  width: 105px;
+  height: 6px;
+  margin: 4px auto;
+  border-radius: 100px 100px;
+}
+
+
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+    font-size: 20px;
+    background-color: #4b4f55;
+    color: white;
+    border: 3px solid;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #777;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: #fff;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

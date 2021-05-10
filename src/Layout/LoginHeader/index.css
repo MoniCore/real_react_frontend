@@ -1,0 +1,31 @@
+.login-logo-image{
+  width: 2.7em;
+  height: 2.7em;
+}
+
+.login-banner {
+  display: flex;
+  padding: 0 5em;
+  height: 55px;
+  z-index: 4600;
+  text-align: initial;
+  background-image: url('/images/logos/banner.png');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gotham Pro";
+  position: fixed;
+  align-items: center;
+}
+
+
+.login-banner > p {
+  color: white;
+  font-size: 17px;
+  display: inline-block;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  padding-top: 17px;
+  line-height: initial;
+  padding-left: 5px;
+}

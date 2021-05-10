@@ -1,0 +1,309 @@
+#options {
+  margin-bottom: 0;
+}
+
+.account-image {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 120px;
+  margin-bottom: 0;
+  margin: 12px auto;
+}
+
+.isactive {
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+  background-color: #01da01;
+  float: right;
+}
+
+#home-account-card {
+  height: 455px;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  border-radius: 17px;
+  width: 52%;
+  background: url('/images/background/profile-card.png');
+}
+
+.account-name {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.role {
+  color: #940000;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.account-info {
+  height: 210px;
+  background-color: #fbfbfb;
+  opacity: 0.7;
+  padding: 10px;
+  display: flex;
+  color: black !important;
+}
+
+#account-body {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+#action-buttons {
+  margin-left: 25px;
+  height: 370px;
+  border-radius: 17px;
+}
+
+.button-certify > button {
+  margin-top: 12px;
+}
+
+#options {
+  font-size: 27px;
+  font-weight: 600;
+}
+
+#account-datas {
+  height: 240px;
+  border-radius: 12px;
+  box-shadow: 1px 1px 1px 1px gray;
+  background-color: #51575c;
+  color: white;
+  background-image: linear-gradient(to top, rgb(12 17 24), rgb(93 99 103)) !important;;
+}
+
+hr {
+  padding: 0;
+  margin: 0;
+}
+
+#user-data {
+  margin-bottom: 3px;
+}
+
+.column1 {
+  border-right: 1px solid gray;
+  width: 33.33333%;
+}
+
+.column2 {
+  width: 66.66666%;
+}
+
+.column1-1,
+.column1-2 {
+  height: 50%;
+}
+
+.column1-1 {
+  border-bottom: 1px solid gray;
+  padding: 5px;
+  text-align: center;
+}
+
+.column2-1,
+.column2-2 {
+  height: 50%;
+}
+
+.column2-1 {
+  border-bottom: 1px solid gray;
+}
+
+.column1-1-1 {
+  height: 50%;
+  border-bottom: 1px solid gray;
+}
+
+.column1-2 {
+  text-align: center;
+  padding-top: 27px;
+  line-height: 0.5;
+}
+
+.column2-1 {
+  display: flex;
+}
+
+.column2-1-1,
+.column2-1-2 {
+  width: 50%;
+  text-align: center;
+}
+
+.column2-1-1 > p {
+  margin: 0;
+}
+
+.column2-2 {
+  padding: 5px;
+  padding-top: 0;
+}
+
+.column2-1-1 {
+  border-right: 1px solid gray;
+  padding-top: 3px;
+}
+
+.level-number,
+.character-number {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 0;
+  color: black;
+}
+
+.level-number {
+  height: 30px;
+}
+
+.jail,
+.mute,
+.expulsion,
+.temporary,
+.warning {
+  margin-bottom: 0 !important;
+  height: 18%;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#sanction {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+#camera-icon {
+  padding: 5px;
+  background-color: white;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 9px;
+  right: 4px;
+  box-shadow: 1px 1px 1px 1px gray;
+}
+
+#camera-icon:hover{
+  cursor: pointer;
+}
+
+#level-bar {
+  width: 80% !important;
+  margin: 0 auto !important;
+  background-color: black !important;
+}
+
+.live-plus{
+  justify-content: center;
+  display: flex;
+}
+
+.panels-card-1{
+  border-radius: 6px;
+  background-color: #e2e2e2;
+}
+
+.panels-card{
+  background-image: url('../../../assets/images/logos/panels-card.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 26px;
+  color: white;
+}
+
+.home-container-top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.discord-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+#discord-sentence{
+  font-size: 25px;
+  width: 73%;
+  text-align: center;
+  font-weight: 900;
+}
+
+.panels-card-body > p{
+  margin-bottom: 0;
+}
+
+#panel1{
+  font-size: 25px;
+}
+
+#underground{
+  font-size: 17px;
+}
+
+.home-container-bottom{
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-left{
+  display: flex;
+}
+
+.social-media{
+  font-size: 35px;
+  font-weight: 900;
+  margin-bottom: 2px;
+}
+
+#last-entries{
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+#bottom-horizon{
+  width: 200px;
+  height: 3px;
+  background-color: #565c60;
+  margin-bottom: 11px;
+}
+
+.social-area{
+  border-radius: 26px;
+  color: white;
+  background-color: #51575c;
+  height: 56%;
+}
+
+.link-icons{
+  margin-bottom: 10px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#user-card-container{
+  display: flex;
+}
+
+.button-certify{
+  width: 300px;
+  margin-left: 30px;
+}
+
+.button-certify > button{
+  box-shadow: 1px 3px 6px 1px gray;
+}
+
+#certi-level{
+  font-size: 30px;
+  margin-bottom: 0 !important;
+  font-weight: 900;
+}

@@ -1,0 +1,104 @@
+#left-top-card{
+  height: 270px;
+  display: block;
+}
+
+#left-top-card,
+#left-middle-card,
+#left-bottom-card,
+#right-bottom-card{
+  border-radius: 10px;
+  padding: 30px;
+  padding-bottom: 10px;
+}
+
+#left-middle-card{
+  display: flex;
+}
+
+.middle-right-letters{
+  padding-left: 20px;
+  margin-left: 20px;
+  border-left: 2px solid #c2c2c2;
+}
+
+#right-top-card{
+  height: 270px;
+  margin-bottom: 2rem !important;
+}
+
+#right-bottom-card{
+  height: 410px;
+}
+
+.map-container{
+  display: flex;
+}
+
+.zoom-buttons{
+  width: 30px;
+}
+
+.zoomin-button,
+.zoomout-button{
+  border: 1px solid gray;
+  padding: 3px;
+  height: 31px;
+  width: 31px;
+  text-align: center;
+}
+
+.zoomout-button{
+  border-top: none;
+}
+
+.zoomin-button:hover,
+.zoomout-button:hover{
+  cursor: pointer;
+}
+
+#processing-performance{
+  font-size: 20px;
+}
+
+.performance-title{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 30px;
+}
+
+#today{
+  padding-top: 5px;
+}
+
+#chart{
+  width: 200px;
+}
+
+.charts-group{
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  width: 87%;
+  justify-content: space-around;
+}
+
+
+.middle-right-letters > p{
+  margin-bottom: 0;
+}
+
+#details{
+  font-size: 17px;
+}
+
+#cache{
+  font-size: 16px;
+}
+
+#cachevalue{
+  font-size:20px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}

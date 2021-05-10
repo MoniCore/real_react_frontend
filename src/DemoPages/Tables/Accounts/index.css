@@ -1,0 +1,36 @@
+.certification-text{
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  background-color: white;
+  border: 1px solid grey;
+  padding: 15px;
+  font-size: 15px;
+}
+
+.question{
+  margin-top: 30px;
+}
+
+.tablehead{
+  background-color: #c6cfda;
+  color: white;
+}
+
+table, th, td{
+  border: 1px solid gray !important;
+  text-align: center;
+  height: 30px;
+}
+
+tbody{
+  background-color: #f9f9f9;
+}
+
+.search-wrapper{
+  margin-left: 20px;
+}
+
+#uid{
+  background-color: #8c9eae !important;
+}

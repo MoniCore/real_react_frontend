@@ -1,0 +1,128 @@
+#slot {
+  height: 600px;
+  background-color: rgba(212, 212, 212, 0.5);
+  border-radius: 30px;
+  box-shadow: none !important;
+}
+
+#active-slot{
+  background-color: #e8e8e8;
+  border-radius: 30px;
+  padding-bottom: 30px;
+  height: 600px;
+  display: block;
+  /* opacity: 0.6; */
+}
+
+.advanced-button{
+  width: 220px;
+  margin: 0 auto;
+}
+
+#cards{
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#slot1-button{
+  width: 220px;
+  margin: 20px auto;
+}
+
+.character1-title, .character-name, .PID, .visit-date{
+  margin-bottom: 0;
+}
+
+.character-name{
+  font-size: 23px;
+}
+
+.stats{
+  text-align: center;
+  font-size: 18px;
+}
+
+.character1-title{
+  font-size: 45px;
+  font-weight: 600;
+  color: #464646;
+}
+
+.character-stats{
+  background-color: whitesmoke;
+  border-radius: 13px;
+  padding: 15px;
+}
+
+.PID{
+  font-size: 20px;
+  color: #8db0d4;
+}
+
+.secondcard-title {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.secondcard-subtitle {
+  text-align: center;
+  font-size: 25px;
+}
+
+.plus-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 68px;
+}
+
+.slot3-link {
+  font-size: 20px;
+  text-decoration: underline;
+  width: 70%;
+  text-align: center;
+  margin: 63px auto;
+}
+
+.slot3-link:hover {
+  cursor: pointer;
+  color: #000000;
+  transition: 0.3s;
+}
+
+.money > p {
+  margin-left: 6px;
+}
+
+.business > p {
+  margin-left: 3px;
+}
+
+.chracter-stat {
+  background-color: #fbfbfb;
+  border-radius: 15px;
+}
+
+.money, .properties, .vehicles, .faction, .business{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+#money-number{
+  padding: 0 !important;
+  margin: 0 !important;
+  color: #73a839;
+}
+
+.money-letter{
+  display: flex;
+  align-items: center;
+}
+
+#character-col{
+  padding-right: 30px;
+  padding-left: 30px;
+}

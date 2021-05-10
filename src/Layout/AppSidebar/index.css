@@ -1,0 +1,10 @@
+.navbar-footer{
+  position: absolute;
+  bottom: 45px;
+  width: 100%;
+  text-align: center;
+}
+
+#foot-icon1, #foot-icon2, #foot-icon3{
+  margin: 3px 8px;
+}
