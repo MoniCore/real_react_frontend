@@ -8,7 +8,7 @@
 
 #queue-modal-main {
   width: 950px;
-  height: 560px;
+  max-height: 560px;
 }
 
 #explain {

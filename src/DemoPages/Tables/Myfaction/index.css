@@ -1,0 +1,99 @@
+#factionid {
+  background-color: #8c9eae !important;
+}
+
+.queue-action-buttons > button {
+  margin-left: 10px;
+}
+
+#explain {
+  padding-left: 20px;
+  width: 65%;
+  padding-top: 20px;
+  font-size: 18px;
+}
+
+#factionlist {
+  padding-top: 10px;
+  margin-bottom: 0;
+  font-size: 21px;
+  padding-left: 18px;
+}
+
+#factionrow {
+  margin-top: 60px;
+}
+
+#list-content {
+  margin-bottom: 0 !important;
+}
+
+.form-check > input:checked {
+  border: 1px solid #41b883 !important;
+  background-color: #34495e !important;
+}
+
+.form-check > input {
+  -webkit-appearance: none;
+  /* -moz-appearance: none; */
+  /* appearance: none;  */
+  border: 1px solid gray;
+  width: 15px;
+  height: 15px;
+}
+
+#comment-user {
+  margin-bottom: 6px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* .queue-action-buttons {
+  text-align: right;
+  margin-right: 30px;
+} */
+
+#table-container{
+  overflow-y: scroll;
+  max-height: 512px;
+  margin-top: 20px;
+}
+
+.search-container{
+  margin-left: 0;
+}
+
+.faction-info{
+  padding: 20px;
+  height: 200px;
+}
+
+#faction-name{
+  margin-top: 30px;
+  font-size: 30px;
+  padding-left: 10px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.underinfo{
+  margin-top: 30px;
+}
+
+.faction-infos{
+  padding: 20px;
+  padding-top: 30px;
+  width: 200px;
+  float: right;
+  height: 300px;
+  display: block;
+}
+
+#fontawesome-container{
+  display: flex;
+  justify-content: space-around;
+  padding: 9px;
+  border-bottom: none !important;
+  border-left:none !important;
+  border-right: none !important;
+}

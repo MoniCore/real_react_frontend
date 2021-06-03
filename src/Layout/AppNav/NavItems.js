@@ -34,12 +34,12 @@ export const ComponentsNav = [
     {
         icon: 'fas fa-ballot-check',
         label: 'Certifications',
-        to: '#/tables/certification'
+        to: '/#/tables/certification'
     },
     {
         icon: 'fas fa-user-slash',
         label: 'Lock',
-        to: '#/tables/banlist'
+        to: '/#/tables/banlist'
     },
     {
         icon: 'fas fa-server',
@@ -53,17 +53,17 @@ export const ComponentsNav = [
     {
         icon: 'fas fa-home',
         label: 'Home',
-        to: '#/tables/home'
+        to: '/#/tables/home'
     },
     {
         icon: 'fas fa-users-medical',
         label: 'Characters',
-        to: '#/tables/character'
+        to: '/#/tables/character'
     },
     {
         icon: 'fas fa-users',
         label: 'My faction',
-        to: '/#/tables/home'
+        to: '/#/tables/myfaction'
     },
     {
         icon: 'fas fa-user-tie',
@@ -78,7 +78,7 @@ export const ComponentsNav = [
     {
         icon: 'fas fa-shopping-cart',
         label: 'Shop',
-        to: '#/tables/shop'
+        to: '/#/tables/shop'
     },
     {
         label: 'CITY'
