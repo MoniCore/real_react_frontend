@@ -5,7 +5,6 @@ import { Row, Col, Card, CardBody, CardTitle, Button } from "reactstrap";
 import "./index.css";
 import Businesslist1 from "./Examples/Businesslist1";
 import Businesslist2 from './Examples/Businesslist2';
-// import FactionSearch from "./FactionSearch/Factionsearch";
 
 const Mybusiness = (props) => {
     return (

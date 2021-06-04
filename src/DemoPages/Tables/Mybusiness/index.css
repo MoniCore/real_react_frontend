@@ -35,8 +35,6 @@
 
 .form-check>input {
   -webkit-appearance: none;
-  /* -moz-appearance: none; */
-  /* appearance: none;  */
   border: 1px solid gray;
   width: 15px;
   height: 15px;

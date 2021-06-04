@@ -43,7 +43,7 @@ const AccountStep2 = (props) => {
                       src={avatar1}
                       alt=""
                     />
-                    <i className="fas fa-camera-retro" id="camera-icon"></i>
+                    <i className="fas fa-camera-retro" id="camera-icon"><input type="file"></input></i>
                   </div>
 
                   <div>

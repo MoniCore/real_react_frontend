@@ -307,3 +307,17 @@ hr {
   margin-bottom: 0 !important;
   font-weight: 900;
 }
+
+/* .upload-avatar{
+  width: 22px;
+  position: absolute;
+  bottom: 1;
+  bottom: 1px;
+  left: 1px;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.upload-avatar:hover{
+  cursor: pointer !important;
+} */
