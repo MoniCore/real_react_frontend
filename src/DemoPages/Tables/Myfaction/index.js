@@ -9,6 +9,8 @@ import FactionSearch from "./FactionSearch/Factionsearch";
 const Myfaction = (props) => {
   return (
     <Fragment>
+      <div className="page-name">MY FACTION</div>
+      <div className="packs-horizon-line"></div>
       <ReactCSSTransitionGroup
         component="div"
         transitionName="TabsAnimation"
@@ -18,14 +20,14 @@ const Myfaction = (props) => {
         transitionLeave={false}
       >
         <Row id="factionrow">
-          <Col lg="4">
+          <Col lg="5">
             <br />
             <CardBody>
               <FactionSearch />
               <Factionlist />
             </CardBody>
           </Col>
-          <Col>
+          <Col lg="5">
             <div>
               <p id="faction-name">Fluseen</p>
               <Card className="faction-info social-area">

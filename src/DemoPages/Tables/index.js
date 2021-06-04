@@ -16,6 +16,7 @@ import CoinPacks from './CoinPacks';
 import Certification1 from './Certification1';
 import Infrastructure from './Infrastructure';
 import Myfaction from './Myfaction';
+import Mybusiness from './Mybusiness';
 // Layout
 
 import Header from '../../Layout/AppHeader/';
@@ -42,6 +43,7 @@ const Tables = ({match}) => (
                     <Route path={`${match.url}/coinpacks`} component={CoinPacks}/>
                     <Route path={`${match.url}/infrastructure`} component={Infrastructure}/>
                     <Route path={`${match.url}/myfaction`} component={Myfaction}/>
+                    <Route path={`${match.url}/mybusiness`} component={Mybusiness}/>
                 </div>
             </div>
         </div>

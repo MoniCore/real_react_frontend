@@ -9,6 +9,8 @@ class Character extends Component {
   render() {
     return (
       <Fragment>
+      <div className="page-name">CHARACTER</div>
+      <div className="horizon-line"></div>
         <ReactCSSTransitionGroup
           component="div"
           transitionName="TabsAnimation"

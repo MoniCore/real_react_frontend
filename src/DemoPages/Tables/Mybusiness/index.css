@@ -1,0 +1,151 @@
+#factionid {
+  background-color: #8c9eae !important;
+}
+
+.queue-action-buttons>button {
+  margin-left: 10px;
+}
+
+#explain {
+  padding-left: 20px;
+  width: 65%;
+  padding-top: 20px;
+  font-size: 18px;
+}
+
+#factionlist {
+  padding-top: 10px;
+  margin-bottom: 0;
+  font-size: 21px;
+  padding-left: 18px;
+}
+
+#businessrow {
+  margin-top: 50px;
+}
+
+#list-content {
+  margin-bottom: 0 !important;
+}
+
+.form-check>input:checked {
+  border: 1px solid #41b883 !important;
+  background-color: #34495e !important;
+}
+
+.form-check>input {
+  -webkit-appearance: none;
+  /* -moz-appearance: none; */
+  /* appearance: none;  */
+  border: 1px solid gray;
+  width: 15px;
+  height: 15px;
+}
+
+#comment-user {
+  margin-bottom: 6px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#between-table {
+  margin-top: auto;
+  padding: 0;
+  padding-bottom: 30px;
+}
+
+#business-table-container {
+  overflow-y: scroll;
+  max-height: 600px;
+  margin-top: 20px;
+}
+
+.search-container {
+  margin-left: 0;
+}
+
+.faction-info {
+  padding: 20px;
+  height: 200px;
+}
+
+#faction-name {
+  margin-top: 30px;
+  font-size: 30px;
+  padding-left: 10px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.underinfo {
+  margin-top: 30px;
+}
+
+.faction-infos {
+  padding: 20px;
+  padding-top: 30px;
+  width: 200px;
+  float: right;
+  height: 300px;
+  display: block;
+}
+
+#fontawesome-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 9px;
+  border-bottom: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+
+#factionrow {
+  justify-content: space-around;
+}
+
+.vehicle-list {
+  width: 100%;
+  margin-top: 10px;
+  min-height: 40px;
+  border-radius: 10px;
+}
+
+.shoppinghistory,
+.internethistory{
+  border-radius: 10px;
+  min-height: 40px;
+  font-size: 16px !important;
+  width: 48%;
+}
+
+.internethistory{
+  letter-spacing: -1px;
+}
+
+.historybutton-group{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.total-capital{
+  width: 100%;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #475663;
+  height: 90px;
+  padding: 10px;
+}
+
+.total-capital > p{
+  color: #fff;
+  font-size: 25px;
+  padding: 0 auto;
+  margin: 14px auto;
+  width: 58%;
+}
+
+#list-name{
+  font-size: 20px;
+  font-weight: 700;
+}

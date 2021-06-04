@@ -68,7 +68,7 @@ export const ComponentsNav = [
     {
         icon: 'fas fa-user-tie',
         label: 'My business',
-        to: '/#/tables/home'
+        to: '/#/tables/mybusiness'
     },
     {
         icon: 'fas fa-hand-holding-usd',
