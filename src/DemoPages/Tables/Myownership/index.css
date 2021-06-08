@@ -233,7 +233,6 @@ input:checked + .slider:before {
   display: flex;
 }
 
-
 .vehiclecards{
   padding: 13px 21px 10px;
   width: 500px;
