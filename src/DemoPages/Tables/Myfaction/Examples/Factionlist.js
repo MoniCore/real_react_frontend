@@ -1,6 +1,7 @@
 import React from 'react';
 import { Table } from 'reactstrap';
 import '../index.css';
+import FactionModal from './FactionModal';
 
 
 export default class Factionlist extends React.Component {
@@ -22,7 +23,7 @@ export default class Factionlist extends React.Component {
               <td scope="row"></td>
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
-                <i class="fas fa-info-circle"></i>
+                <FactionModal />
                 <i class="far fa-money-check-edit"></i>
                 <i class="fas fa-award"></i>
                 <i class="far fa-times-hexagon"></i>

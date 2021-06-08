@@ -33,7 +33,7 @@ const Mybusiness = (props) => {
                             <Button className="mb-2 mr-2 vehicle-list" color="primary">Vehicle List</Button>
                         </div>
                         <div className="total-capital">
-                            <p id="total-capital-text">Total Capital-643.335$</p>
+                            <p id="total-capital-text">Total Capital - 643.335 $</p>
                         </div>
                     </Col>
                     <Col lg="4">

@@ -1,0 +1,264 @@
+#pack-cards {
+  padding-left: 15px;
+  margin-bottom: 14px;
+}
+
+#pack-number {
+  font-size: 26px;
+  margin-bottom: 0;
+}
+
+.edit-button {
+  margin: auto;
+  width: 96px;
+}
+
+#pack-cards-container,
+#membership-cards-container {
+  display: flex;
+}
+
+.packs-horizon-line {
+  width: 95px;
+  height: 5px;
+  background: #35383c;
+  margin-bottom: 8px;
+  margin-left: 17px;
+  margin-top: 6px;
+  border: none;
+  border-radius: 40px;
+}
+
+#pack-number-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+#pack-edit-modal {
+  width: 850px;
+  height: 360px;
+}
+
+#pack-edit-modal-content {
+  display: flex;
+  padding: 20px;
+}
+
+.pack-edit-left,
+.pack-edit-right {
+  width: 50%;
+  height: 100%;
+}
+
+.pack-edit-right {
+  padding-left: 20px;
+}
+
+.pack-edit-left {
+  border-right: 1px solid gray;
+}
+
+#editing-packs {
+  color: black;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.pack-edit-left > label {
+  margin-bottom: 0 !important;
+  color: black;
+}
+
+.pack-edit-left > input {
+  margin-bottom: 10px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  width: 100px;
+  padding: 0 10px;
+}
+
+#percent {
+  margin-left: -24px;
+}
+
+#commit {
+  padding-left: 30px;
+  color: black;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 51px;
+  height: 26px;
+  margin-top: 3px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #cdcdcd;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  border: 1px solid gray;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 24px;
+  left: 0px;
+  bottom: 0px;
+  background-color: #d4d4d4;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  border: 1px solid gray;
+  box-shadow: 4px 1px 7px grey;
+}
+
+input:checked + .slider {
+  background-color: #42505d;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #42505d;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.recommended-container {
+  display: flex;
+  align-items: center;
+}
+
+#recommended {
+  padding-left: 10px;
+  font-size: 20px;
+  color: black;
+  margin-bottom: 0;
+}
+
+.bonus {
+  width: 200px;
+  height: 32px;
+  border-radius: 10px;
+}
+
+.save-cancel-buttons {
+  margin-top: 110px;
+  margin-right: 10px;
+  float: right;
+  width: 223px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.save-cancel-buttons > button {
+  width: 98px;
+  height: 35px;
+  padding: 0px;
+}
+
+.react-switch-checkbox {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+.react-switch-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 45px;
+  height: 21px;
+  background: grey;
+  border-radius: 100px;
+  position: relative;
+  transition: background-color 0.2s;
+  margin-bottom: 18px;
+}
+
+.react-switch-label .react-switch-button {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 2px;
+  width: 19px;
+  height: 19px;
+  border-radius: 45px;
+  transition: 0.2s;
+  background: #fff;
+  box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
+}
+
+.react-switch-checkbox:checked + .react-switch-label .react-switch-button {
+  left: calc(100% - 2px);
+  transform: translateX(-100%);
+}
+
+.react-switch-label:active .react-switch-button {
+  width: 60px;
+}
+
+#vehicle-cards-container{
+  overflow-x: auto;
+  display: flex;
+}
+
+
+.vehiclecards{
+  padding: 13px 21px 10px;
+  width: 500px;
+  border-radius: 15px;
+  background-color: #f4f4f4;
+  margin: 23px 17px;
+  display: block;
+  line-height: 0.5;
+  padding-top: 15px;
+}
+
+.vehicle-name{
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.vehicles-container{
+  display: flex;
+  justify-content: center;
+}
+
+.vehicle-card-left > div{
+  display: flex;
+}
+
+#vehicle-card{
+  max-width: 2750px;
+}

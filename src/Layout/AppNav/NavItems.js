@@ -73,7 +73,7 @@ export const ComponentsNav = [
     {
         icon: 'fas fa-hand-holding-usd',
         label: 'My ownership',
-        to: '/#/tables/home'
+        to: '/#/tables/myownership'
     },
     {
         icon: 'fas fa-shopping-cart',

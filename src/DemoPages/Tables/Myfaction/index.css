@@ -42,12 +42,6 @@
     margin-top: 20px;
 }
 
-
-/* .queue-action-buttons {
-  text-align: right;
-  margin-right: 30px;
-} */
-
 #table-container {
     overflow-y: scroll;
     max-height: 512px;
@@ -87,7 +81,7 @@
 #fontawesome-container {
     display: flex;
     justify-content: space-around;
-    padding: 9px;
+    padding: 5px;
     border-bottom: none !important;
     border-left: none !important;
     border-right: none !important;
@@ -95,4 +89,70 @@
 
 #factionrow {
     justify-content: space-around;
+}
+
+#info-faction-modal{
+    width: 40%;
+    height: 330px;
+}
+
+#faction-info-modal {
+    position: relative;
+    padding: 30px;
+    padding-top: 10px;
+}
+
+.times-icon {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.times-icon:hover{
+    cursor: pointer;
+}
+
+.faction-info-modal-title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+#faction-info-modal-hr {
+    width: 30%;
+    margin: 0 auto;  
+}
+
+.faction-info-parent {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.faction-info-modal-left > div,
+.faction-info-modal-right > div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.faction-info-modal-left{
+    line-height: 0.5;
+    padding-top: 25px;
+    padding-right: 20px;
+    border-right: 1px solid gray;
+}
+
+.faction-info-modal-right{
+    padding-left: 20px;
+    overflow-y: auto;
+    height: 226px;
+    padding-right: 10px;
+    line-height: 0.5;
+    padding-top: 2px;
+}
+
+#sanction-staff{
+    text-align: center;
 }

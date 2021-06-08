@@ -29,18 +29,8 @@ class CoinPacks extends Component {
               <PackCard />
             </Col>
           </Row>
-        </ReactCSSTransitionGroup>
         <div className="page-name">PREMIUM MEMBERSHIPS</div>
         <div className="packs-horizon-line"></div>
-        <ReactCSSTransitionGroup
-          component="div"
-          transitionName="TabsAnimation"
-          transitionAppear={true}
-          transitionAppearTimeout={0}
-          transitionEnter={false}
-          transitionLeave={false}
-          id="pack-cards"
-        >
           <Row>
             <Col md="7" id="membership-cards-container">
               <MemCard />
