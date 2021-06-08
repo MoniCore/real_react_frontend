@@ -17,7 +17,7 @@ class VehicleCard extends Component {
           transitionAppearTimeout={0}
           transitionEnter={false}
           transitionLeave={false}
-          id="pack-card"
+          id="vehicle-card"
         >
           <Card className="vehiclecards">
               <div className="vehicles-container">
