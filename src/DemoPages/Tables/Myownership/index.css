@@ -1,93 +1,3 @@
-#pack-cards {
-  padding-left: 15px;
-  margin-bottom: 14px;
-}
-
-#pack-number {
-  font-size: 26px;
-  margin-bottom: 0;
-}
-
-.edit-button {
-  margin: auto;
-  width: 96px;
-}
-
-#pack-cards-container,
-#membership-cards-container {
-  display: flex;
-}
-
-.packs-horizon-line {
-  width: 95px;
-  height: 5px;
-  background: #35383c;
-  margin-bottom: 8px;
-  margin-left: 17px;
-  margin-top: 6px;
-  border: none;
-  border-radius: 40px;
-}
-
-#pack-number-content {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 15px;
-}
-
-#pack-edit-modal {
-  width: 850px;
-  height: 360px;
-}
-
-#pack-edit-modal-content {
-  display: flex;
-  padding: 20px;
-}
-
-.pack-edit-left,
-.pack-edit-right {
-  width: 50%;
-  height: 100%;
-}
-
-.pack-edit-right {
-  padding-left: 20px;
-}
-
-.pack-edit-left {
-  border-right: 1px solid gray;
-}
-
-#editing-packs {
-  color: black;
-  font-size: 30px;
-  margin-bottom: 20px;
-}
-
-.pack-edit-left > label {
-  margin-bottom: 0 !important;
-  color: black;
-}
-
-.pack-edit-left > input {
-  margin-bottom: 10px;
-  height: 30px;
-  border-radius: 10px;
-  border: 1px solid gray;
-  width: 100px;
-  padding: 0 10px;
-}
-
-#percent {
-  margin-left: -24px;
-}
-
-#commit {
-  padding-left: 30px;
-  color: black;
-}
-
 .switch {
   position: relative;
   display: inline-block;
@@ -235,7 +145,7 @@ input:checked + .slider:before {
 
 .vehiclecards{
   padding: 13px 21px 10px;
-  width: 500px;
+  width: 445px;
   border-radius: 15px;
   background-color: #f4f4f4;
   margin: 23px 17px;
@@ -260,4 +170,60 @@ input:checked + .slider:before {
 
 #vehicle-card{
   max-width: 2750px;
+}
+
+#vehicle-row{
+  max-width: 1460px;
+}
+
+#houses-cards-container,
+#promises-cards-container{
+  display: flex;
+  justify-content: start;
+  padding-left: 0;
+}
+
+.ownership-titles{
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: #35383c;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.ownership-horizon-line{
+  width: 160px;
+  height: 5px;
+  background: #35383c;
+  border: none;
+  border-radius: 40px;
+  margin: 0 auto;
+}
+
+.houses-cards-containers,
+.promises-cards-containers{
+  max-width: 860px;
+    overflow-x: auto;
+    margin: 0 auto;
+}
+
+.first-ownership-title{
+  margin-top: 0;
+}
+
+#house_id,
+#premises_id{
+  text-align: center;
+  font-size: 18px;
+}
+
+#houses-content,
+#premises-content{
+  line-height: 0.5;
+}
+
+#houses-content > div,
+#premises-content > div{
+  display: flex;
 }

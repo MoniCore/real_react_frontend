@@ -1,7 +1,10 @@
 import React from 'react';
 import { Table } from 'reactstrap';
 import '../index.css';
-import FactionModal from './FactionModal';
+import InformationModal from './InformationModal';
+import ListModal from './ListModal';
+import KickModal from './KickModal';
+import ExpelModal from './ExpelModal';
 
 
 export default class Factionlist extends React.Component {
@@ -23,10 +26,10 @@ export default class Factionlist extends React.Component {
               <td scope="row"></td>
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
-                <FactionModal />
-                <i class="far fa-money-check-edit"></i>
-                <i class="fas fa-award"></i>
-                <i class="far fa-times-hexagon"></i>
+                <InformationModal />
+                <ListModal />
+                <ExpelModal />
+                <KickModal />
               </td>
             </tr>
             <tr>
@@ -34,110 +37,110 @@ export default class Factionlist extends React.Component {
               <td scope="row"></td>
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
-                <i class="fas fa-info-circle"></i>
-                <i class="far fa-money-check-edit"></i>
-                <i class="fas fa-award"></i>
-                <i class="far fa-times-hexagon"></i>
+                <InformationModal />
+                <ListModal />
+                <ExpelModal />
+                <KickModal />
               </td>
             </tr><tr>
               <td scope="row"></td>
               <td scope="row"></td>
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
-                <i class="fas fa-info-circle"></i>
-                <i class="far fa-money-check-edit"></i>
-                <i class="fas fa-award"></i>
-                <i class="far fa-times-hexagon"></i>
+                <InformationModal />
+                <ListModal />
+                <ExpelModal />
+                <KickModal />
               </td>
             </tr><tr>
               <td scope="row"></td>
               <td scope="row"></td>
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
-                <i class="fas fa-info-circle"></i>
-                <i class="far fa-money-check-edit"></i>
-                <i class="fas fa-award"></i>
-                <i class="far fa-times-hexagon"></i>
+                <InformationModal />
+                <ListModal />
+                <ExpelModal />
+                <KickModal />
               </td>
             </tr><tr>
               <td scope="row"></td>
               <td scope="row"></td>
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
-                <i class="fas fa-info-circle"></i>
-                <i class="far fa-money-check-edit"></i>
-                <i class="fas fa-award"></i>
-                <i class="far fa-times-hexagon"></i>
+                <InformationModal />
+                <ListModal />
+                <ExpelModal />
+                <KickModal />
               </td>
             </tr><tr>
               <td scope="row"></td>
               <td scope="row"></td>
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
-                <i class="fas fa-info-circle"></i>
-                <i class="far fa-money-check-edit"></i>
-                <i class="fas fa-award"></i>
-                <i class="far fa-times-hexagon"></i>
+                <InformationModal />
+                <ListModal />
+                <ExpelModal />
+                <KickModal />
               </td>
             </tr><tr>
               <td scope="row"></td>
               <td scope="row"></td>
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
-                <i class="fas fa-info-circle"></i>
-                <i class="far fa-money-check-edit"></i>
-                <i class="fas fa-award"></i>
-                <i class="far fa-times-hexagon"></i>
+                <InformationModal />
+                <ListModal />
+                <ExpelModal />
+                <KickModal />
               </td>
             </tr><tr>
               <td scope="row"></td>
               <td scope="row"></td>
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
-                <i class="fas fa-info-circle"></i>
-                <i class="far fa-money-check-edit"></i>
-                <i class="fas fa-award"></i>
-                <i class="far fa-times-hexagon"></i>
+                <InformationModal />
+                <ListModal />
+                <ExpelModal />
+                <KickModal />
               </td>
             </tr><tr>
               <td scope="row"></td>
               <td scope="row"></td>
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
-                <i class="fas fa-info-circle"></i>
-                <i class="far fa-money-check-edit"></i>
-                <i class="fas fa-award"></i>
-                <i class="far fa-times-hexagon"></i>
+                <InformationModal />
+                <ListModal />
+                <ExpelModal />
+                <KickModal />
               </td>
             </tr><tr>
               <td scope="row"></td>
               <td scope="row"></td>
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
-                <i class="fas fa-info-circle"></i>
-                <i class="far fa-money-check-edit"></i>
-                <i class="fas fa-award"></i>
-                <i class="far fa-times-hexagon"></i>
+                <InformationModal />
+                <ListModal />
+                <ExpelModal />
+                <KickModal />
               </td>
             </tr><tr>
               <td scope="row"></td>
               <td scope="row"></td>
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
-                <i class="fas fa-info-circle"></i>
-                <i class="far fa-money-check-edit"></i>
-                <i class="fas fa-award"></i>
-                <i class="far fa-times-hexagon"></i>
+                <InformationModal />
+                <ListModal />
+                <ExpelModal />
+                <KickModal />
               </td>
             </tr><tr>
               <td scope="row"></td>
               <td scope="row"></td>
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
-                <i class="fas fa-info-circle"></i>
-                <i class="far fa-money-check-edit"></i>
-                <i class="fas fa-award"></i>
-                <i class="far fa-times-hexagon"></i>
+                <InformationModal />
+                <ListModal />
+                <ExpelModal />
+                <KickModal />
               </td>
             </tr>
             <tr>
@@ -145,10 +148,10 @@ export default class Factionlist extends React.Component {
               <td scope="row"></td>
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
-                <i class="fas fa-info-circle"></i>
-                <i class="far fa-money-check-edit"></i>
-                <i class="fas fa-award"></i>
-                <i class="far fa-times-hexagon"></i>
+                <InformationModal />
+                <ListModal />
+                <ExpelModal />
+                <KickModal />
               </td>
             </tr>
             <tr>
@@ -156,10 +159,10 @@ export default class Factionlist extends React.Component {
               <td scope="row"></td>
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
-                <i class="fas fa-info-circle"></i>
-                <i class="far fa-money-check-edit"></i>
-                <i class="fas fa-award"></i>
-                <i class="far fa-times-hexagon"></i>
+                <InformationModal />
+                <ListModal />
+                <ExpelModal />
+                <KickModal />
               </td>
             </tr>
             <tr>
@@ -167,10 +170,10 @@ export default class Factionlist extends React.Component {
               <td scope="row"></td>
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
-                <i class="fas fa-info-circle"></i>
-                <i class="far fa-money-check-edit"></i>
-                <i class="fas fa-award"></i>
-                <i class="far fa-times-hexagon"></i>
+                <InformationModal />
+                <ListModal />
+                <ExpelModal />
+                <KickModal />
               </td>
             </tr>
             <tr>
@@ -178,10 +181,10 @@ export default class Factionlist extends React.Component {
               <td scope="row"></td>
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
-                <i class="fas fa-info-circle"></i>
-                <i class="far fa-money-check-edit"></i>
-                <i class="fas fa-award"></i>
-                <i class="far fa-times-hexagon"></i>
+                <InformationModal />
+                <ListModal />
+                <ExpelModal />
+                <KickModal />
               </td>
             </tr>
             <tr>
@@ -189,10 +192,10 @@ export default class Factionlist extends React.Component {
               <td scope="row"></td>
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
-                <i class="fas fa-info-circle"></i>
-                <i class="far fa-money-check-edit"></i>
-                <i class="fas fa-award"></i>
-                <i class="far fa-times-hexagon"></i>
+                <InformationModal />
+                <ListModal />
+                <ExpelModal />
+                <KickModal />
               </td>
             </tr>
             <tr>
@@ -200,10 +203,10 @@ export default class Factionlist extends React.Component {
               <td scope="row"></td>
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
-                <i class="fas fa-info-circle"></i>
-                <i class="far fa-money-check-edit"></i>
-                <i class="fas fa-award"></i>
-                <i class="far fa-times-hexagon"></i>
+                <InformationModal />
+                <ListModal />
+                <ExpelModal />
+                <KickModal />
               </td>
             </tr>
           </tbody>

@@ -3,7 +3,7 @@ import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 
 import Switch from "./Switch";
 
-class FactionModal extends React.Component {
+class InformationModal extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -22,7 +22,7 @@ class FactionModal extends React.Component {
   render() {
     return (
       <div className="faction-info-modal-container">
-        <i class="fas fa-info-circle info-awesome" onClick={this.toggle}></i>
+        <i className="fas fa-info-circle info-awesome" onClick={this.toggle} data  data-toggle="tooltip" data-placement="top" title="Information"></i>
         <Modal
           isOpen={this.state.modal}
           toggle={this.toggle}
@@ -30,7 +30,7 @@ class FactionModal extends React.Component {
           id="info-faction-modal"
         >
           <ModalBody id="faction-info-modal">
-            <i class="fas fa-times times-icon" onClick={this.toggle}></i>
+            <i className="fas fa-times times-icon" onClick={this.toggle}></i>
             <p className="faction-info-modal-title">Information</p>
             <hr id="faction-info-modal-hr" />
             <div className="faction-info-parent">
@@ -61,4 +61,4 @@ class FactionModal extends React.Component {
   }
 }
 
-export default FactionModal;
+export default InformationModal;

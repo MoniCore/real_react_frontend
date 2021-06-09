@@ -18,6 +18,7 @@ import Infrastructure from './Infrastructure';
 import Myfaction from './Myfaction';
 import Mybusiness from './Mybusiness';
 import Myownership from './Myownership';
+import Factions from './Factions';
 // Layout
 
 import Header from '../../Layout/AppHeader/';
@@ -46,6 +47,7 @@ const Tables = ({match}) => (
                     <Route path={`${match.url}/myfaction`} component={Myfaction}/>
                     <Route path={`${match.url}/mybusiness`} component={Mybusiness}/>
                     <Route path={`${match.url}/myownership`} component={Myownership}/>
+                    <Route path={`${match.url}/factions`} component={Factions}/>
                 </div>
             </div>
         </div>

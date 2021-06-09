@@ -21,14 +21,11 @@ class HouseCard extends Component {
         >
           <Card className="packcards">
               <div className="packs-container">
-                <p id="pack-number"><b>PLAN #1</b></p>
-                <div id="pack-number-content">
-                  <div id="number-styerr">1 WEEKS</div>
-                  <div id="coins-styerrs">15 styerrs</div>
+                <p id="house_id"><b>House id</b></p>
+                <div id="houses-content">
+                  <div><p>Location :</p><p></p></div>
+                  <div><p>Price :</p><p></p></div>
                </div> 
-              </div>
-              <div className="edit-button">
-                <EditMembership />
               </div>
           </Card>
         </ReactCSSTransitionGroup>

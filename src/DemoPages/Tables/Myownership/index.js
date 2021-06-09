@@ -12,7 +12,6 @@ class Myownership extends Component {
   render() {
     return (
       <Fragment>
-
         <ReactCSSTransitionGroup
           component="div"
           transitionName="TabsAnimation"
@@ -22,10 +21,10 @@ class Myownership extends Component {
           transitionLeave={false}
           id="pack-cards"
         >
-          <div className="page-name">VEHICLES</div>
-          <div className="packs-horizon-line"></div>
-          <Row>
-            <Col md="7" id="vehicle-cards-container">
+          <div className="ownership-titles first-ownership-title">VEHICLES</div>
+          <div className="ownership-horizon-line"></div>
+          <div id="vehicle-row">
+            <Col id="vehicle-cards-container">
               <VehicleCard />
               <VehicleCard />
               <VehicleCard />
@@ -36,25 +35,25 @@ class Myownership extends Component {
               <VehicleCard />
               <VehicleCard />
             </Col>
-          </Row>
-          <div className="page-name">HOUSES</div>
-          <div className="packs-horizon-line"></div>
-          <Row>
-            <Col md="7" id="membership-cards-container">
+          </div>
+          <div className="ownership-titles">HOUSES</div>
+          <div className="ownership-horizon-line"></div>
+          <div className="houses-cards-containers">
+            <Col id="houses-cards-container">
               <HouseCard />
               <HouseCard />
               <HouseCard />
             </Col>
-          </Row>
-          <div className="page-name">PREMISES</div>
-          <div className="packs-horizon-line"></div>
-          <Row>
-            <Col md="7" id="membership-cards-container">
+          </div>
+          <div className="ownership-titles">PREMISES</div>
+          <div className="ownership-horizon-line"></div>
+          <div className="promises-cards-containers">
+            <Col id="promises-cards-container">
               <PremisesCard />
               <PremisesCard />
               <PremisesCard />
             </Col>
-          </Row>
+          </div>
         </ReactCSSTransitionGroup>
       </Fragment>
     );

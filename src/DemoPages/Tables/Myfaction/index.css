@@ -43,7 +43,7 @@
 }
 
 #table-container {
-    overflow-y: scroll;
+    overflow-y: auto;
     max-height: 512px;
     margin-top: 20px;
 }
@@ -81,7 +81,7 @@
 #fontawesome-container {
     display: flex;
     justify-content: space-around;
-    padding: 5px;
+    padding: 5px !important;
     border-bottom: none !important;
     border-left: none !important;
     border-right: none !important;
@@ -91,9 +91,15 @@
     justify-content: space-around;
 }
 
-#info-faction-modal{
+#info-faction-modal {
     width: 40%;
     height: 330px;
+}
+
+#kick-faction-modal,
+#expel-faction-modal,
+#list-faction-modal{
+    width: 25%;
 }
 
 #faction-info-modal {
@@ -108,7 +114,7 @@
     top: 20px;
 }
 
-.times-icon:hover{
+.times-icon:hover {
     cursor: pointer;
 }
 
@@ -122,7 +128,7 @@
 
 #faction-info-modal-hr {
     width: 30%;
-    margin: 0 auto;  
+    margin: 0 auto;
 }
 
 .faction-info-parent {
@@ -131,20 +137,19 @@
     padding-top: 20px;
 }
 
-.faction-info-modal-left > div,
-.faction-info-modal-right > div{
+.faction-info-modal-left>div, .faction-info-modal-right>div {
     display: flex;
     flex-wrap: wrap;
 }
 
-.faction-info-modal-left{
+.faction-info-modal-left {
     line-height: 0.5;
     padding-top: 25px;
     padding-right: 20px;
     border-right: 1px solid gray;
 }
 
-.faction-info-modal-right{
+.faction-info-modal-right {
     padding-left: 20px;
     overflow-y: auto;
     height: 226px;
@@ -153,6 +158,18 @@
     padding-top: 2px;
 }
 
-#sanction-staff{
+#sanction-staff {
     text-align: center;
+}
+
+.faction-info-modal-container>i:hover {
+    cursor: pointer;
+}
+
+#faction-info-modal > div{
+    text-align: center;
+}
+
+#faction-info-modal button{
+    margin: 10px;
 }

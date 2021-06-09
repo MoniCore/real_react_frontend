@@ -21,14 +21,12 @@ class PremisesCard extends Component {
         >
           <Card className="packcards">
               <div className="packs-container">
-                <p id="pack-number"><b>PLAN #1</b></p>
-                <div id="pack-number-content">
-                  <div id="number-styerr">1 WEEKS</div>
-                  <div id="coins-styerrs">15 styerrs</div>
+                <p id="premises_id"><b>Local id</b></p>
+                <div id="premises-content">
+                  <div><p>Location :</p><p></p></div>
+                  <div><p>Linked Company :</p><p></p></div>
+                  <div><p>Price :</p><p></p></div>
                </div> 
-              </div>
-              <div className="edit-button">
-                <EditMembership />
               </div>
           </Card>
         </ReactCSSTransitionGroup>

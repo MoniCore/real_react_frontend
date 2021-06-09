@@ -15,7 +15,7 @@ export const ComponentsNav = [
         content: [
             {
                 label: 'Factions',
-                to: '/#/tables/home'
+                to: '/#/tables/factions'
             },
             {
                 label: 'Business',
