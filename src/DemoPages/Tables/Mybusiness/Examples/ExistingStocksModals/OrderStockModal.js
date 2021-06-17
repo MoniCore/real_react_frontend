@@ -1,9 +1,7 @@
 import React from "react";
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter, Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from "reactstrap";
 
-import Switch from "./Switch";
-
-class KickModal extends React.Component {
+class StopSellingModal extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -22,20 +20,21 @@ class KickModal extends React.Component {
   render() {
     return (
       <div className="faction-info-modal-container">
-        <i className="far fa-times-hexagon" onClick={this.toggle} data  data-toggle="tooltip" data-placement="top" title="Kick member"></i>
+        <i className="far fa-money-check-edit" onClick={this.toggle} data data-toggle="tooltip" data-placement="top" title="Stop selling this item"></i>
         <Modal
           isOpen={this.state.modal}
           toggle={this.toggle}
           className={this.props.className}
-          id="kick-faction-modal"
+          id="list-faction-modal"
         >
           <ModalBody id="faction-info-modal">
             <i className="fas fa-times times-icon" onClick={this.toggle}></i>
-            <p className="faction-info-modal-title">User Name</p>
-            <p>Are you want to remove this member of faction ?</p>
+            <p className="faction-info-modal-title">Stop Selling</p>
+            <p>Are you sure to stop the sale of this item ?</p>
+
             <div>
               <Button onClick={this.toggle}>Cancel</Button>
-              <Button>Kick from faction</Button>
+              <Button>Yes</Button>
             </div>
           </ModalBody>
         </Modal>
@@ -44,4 +43,4 @@ class KickModal extends React.Component {
   }
 }
 
-export default KickModal;
+export default StopSellingModal;

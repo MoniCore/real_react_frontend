@@ -2,19 +2,23 @@ import React from 'react';
 import { Table } from 'reactstrap';
 import '../index.css';
 
+import InformationModal from './MembersListModals/InformationModal';
+import EditMemberModal from './MembersListModals/EditMemberModal';
+import ExpelMemberModal from './MembersListModals/ExpelMemberModal'
 
-export default class Factionlist extends React.Component {
+
+export default class MembersList extends React.Component {
   render() {
     return (
       <div>
-        <p id="list-name">Existing Stock</p>
+        <p id="list-name">Members List</p>
         <div id="business-table-container">
           <Table className="mb-0" bordered>
             <thead className="tablehead">
               <tr>
-                <th>Stock Items</th>
-                <th>Stock</th>
-                <th>Price</th>
+                <th>Account</th>
+                <th>Character</th>
+                <th>Rank</th>
                 <th>Action</th>
               </tr>
             </thead>
@@ -24,9 +28,9 @@ export default class Factionlist extends React.Component {
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <InformationModal />
+                  <EditMemberModal />
+                  <ExpelMemberModal />
                 </td>
               </tr>
               <tr>
@@ -34,99 +38,99 @@ export default class Factionlist extends React.Component {
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <InformationModal />
+                  <EditMemberModal />
+                  <ExpelMemberModal />
                 </td>
               </tr><tr>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <InformationModal />
+                  <EditMemberModal />
+                  <ExpelMemberModal />
                 </td>
               </tr><tr>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <InformationModal />
+                  <EditMemberModal />
+                  <ExpelMemberModal />
                 </td>
               </tr><tr>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <InformationModal />
+                  <EditMemberModal />
+                  <ExpelMemberModal />
                 </td>
               </tr><tr>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <InformationModal />
+                  <EditMemberModal />
+                  <ExpelMemberModal />
                 </td>
               </tr><tr>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <InformationModal />
+                  <EditMemberModal />
+                  <ExpelMemberModal />
                 </td>
               </tr><tr>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <InformationModal />
+                  <EditMemberModal />
+                  <ExpelMemberModal />
                 </td>
               </tr><tr>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <InformationModal />
+                  <EditMemberModal />
+                  <ExpelMemberModal />
                 </td>
               </tr><tr>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <InformationModal />
+                  <EditMemberModal />
+                  <ExpelMemberModal />
                 </td>
               </tr><tr>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <InformationModal />
+                  <EditMemberModal />
+                  <ExpelMemberModal />
                 </td>
               </tr><tr>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <InformationModal />
+                  <EditMemberModal />
+                  <ExpelMemberModal />
                 </td>
               </tr>
               <tr>
@@ -134,9 +138,9 @@ export default class Factionlist extends React.Component {
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <InformationModal />
+                  <EditMemberModal />
+                  <ExpelMemberModal />
                 </td>
               </tr>
               <tr>
@@ -144,9 +148,9 @@ export default class Factionlist extends React.Component {
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <InformationModal />
+                  <EditMemberModal />
+                  <ExpelMemberModal />
                 </td>
               </tr>
               <tr>
@@ -154,9 +158,9 @@ export default class Factionlist extends React.Component {
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <InformationModal />
+                  <EditMemberModal />
+                  <ExpelMemberModal />
                 </td>
               </tr>
               <tr>
@@ -164,9 +168,9 @@ export default class Factionlist extends React.Component {
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <InformationModal />
+                  <EditMemberModal />
+                  <ExpelMemberModal />
                 </td>
               </tr>
               <tr>
@@ -174,9 +178,9 @@ export default class Factionlist extends React.Component {
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <InformationModal />
+                  <EditMemberModal />
+                  <ExpelMemberModal />
                 </td>
               </tr>
               <tr>
@@ -184,9 +188,9 @@ export default class Factionlist extends React.Component {
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <InformationModal />
+                  <EditMemberModal />
+                  <ExpelMemberModal />
                 </td>
               </tr>
             </tbody>

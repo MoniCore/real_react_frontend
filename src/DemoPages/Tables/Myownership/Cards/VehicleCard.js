@@ -1,6 +1,8 @@
 import React, { Component, Fragment } from "react";
 import { Button } from "reactstrap";
 import ReactCSSTransitionGroup from "react-addons-css-transition-group";
+
+import car from '../../../../assets/images/background/car.jpg';
 // import "./index.css";
 // import EditPack from "./EditPack";
 
@@ -20,21 +22,24 @@ class VehicleCard extends Component {
           id="vehicle-card"
         >
           <Card className="vehiclecards">
-              <div className="vehicles-container">
-                <div className="vehicle-card-left">
-                  <p className="vehicle-name">Vehicle Name</p>
-                  <div><p>Key number : </p><p> 312415</p></div>
-                  <div><p>Registration :</p><p> </p></div>
-                  <div><p>Current position :</p><p></p></div>
-                  <div><p>Price :</p><p></p></div>
-                  <div><p>Primary color :</p><p></p></div>
-                  <div><p>Secondary color :</p><p></p></div>
-                  <Button className="document-button">Documentation</Button>
-                </div>
-                <div className="vehicle-card-right">
-
-                </div>
+            <div className="vehicles-container">
+              <div className="vehicle-card-left">
+                <p className="vehicle-name">Vehicle Name</p>
+                <div><p>Key number : </p><p> 312415</p></div>
+                <div><p>Registration :</p><p> </p></div>
+                <div><p>Current position :</p><p></p></div>
+                <div><p>Price :</p><p></p></div>
+                <div><p>Primary color :</p><p></p></div>
+                <div><p>Secondary color :</p><p></p></div>
+                <Button className="document-button">Documentation</Button>
               </div>
+              <div className="vehicle-card-right">
+                <img
+                  src={car}
+                  alt=""
+                />
+              </div>
+            </div>
           </Card>
         </ReactCSSTransitionGroup>
       </Fragment>

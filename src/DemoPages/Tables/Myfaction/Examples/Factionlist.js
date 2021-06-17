@@ -2,9 +2,9 @@ import React from 'react';
 import { Table } from 'reactstrap';
 import '../index.css';
 import InformationModal from './InformationModal';
-import ListModal from './ListModal';
+import RankModal from './RankModal';
 import KickModal from './KickModal';
-import ExpelModal from './ExpelModal';
+import CondecorationModal from './CondecorationModal';
 
 
 export default class Factionlist extends React.Component {
@@ -27,8 +27,8 @@ export default class Factionlist extends React.Component {
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
                 <InformationModal />
-                <ListModal />
-                <ExpelModal />
+                <RankModal />
+                <CondecorationModal />
                 <KickModal />
               </td>
             </tr>
@@ -38,8 +38,8 @@ export default class Factionlist extends React.Component {
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
                 <InformationModal />
-                <ListModal />
-                <ExpelModal />
+                <RankModal />
+                <CondecorationModal />
                 <KickModal />
               </td>
             </tr><tr>
@@ -48,8 +48,8 @@ export default class Factionlist extends React.Component {
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
                 <InformationModal />
-                <ListModal />
-                <ExpelModal />
+                <RankModal />
+                <CondecorationModal />
                 <KickModal />
               </td>
             </tr><tr>
@@ -58,8 +58,8 @@ export default class Factionlist extends React.Component {
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
                 <InformationModal />
-                <ListModal />
-                <ExpelModal />
+                <RankModal />
+                <CondecorationModal />
                 <KickModal />
               </td>
             </tr><tr>
@@ -68,8 +68,8 @@ export default class Factionlist extends React.Component {
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
                 <InformationModal />
-                <ListModal />
-                <ExpelModal />
+                <RankModal />
+                <CondecorationModal />
                 <KickModal />
               </td>
             </tr><tr>
@@ -78,8 +78,8 @@ export default class Factionlist extends React.Component {
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
                 <InformationModal />
-                <ListModal />
-                <ExpelModal />
+                <RankModal />
+                <CondecorationModal />
                 <KickModal />
               </td>
             </tr><tr>
@@ -88,8 +88,8 @@ export default class Factionlist extends React.Component {
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
                 <InformationModal />
-                <ListModal />
-                <ExpelModal />
+                <RankModal />
+                <CondecorationModal />
                 <KickModal />
               </td>
             </tr><tr>
@@ -98,8 +98,8 @@ export default class Factionlist extends React.Component {
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
                 <InformationModal />
-                <ListModal />
-                <ExpelModal />
+                <RankModal />
+                <CondecorationModal />
                 <KickModal />
               </td>
             </tr><tr>
@@ -108,8 +108,8 @@ export default class Factionlist extends React.Component {
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
                 <InformationModal />
-                <ListModal />
-                <ExpelModal />
+                <RankModal />
+                <CondecorationModal />
                 <KickModal />
               </td>
             </tr><tr>
@@ -118,8 +118,8 @@ export default class Factionlist extends React.Component {
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
                 <InformationModal />
-                <ListModal />
-                <ExpelModal />
+                <RankModal />
+                <CondecorationModal />
                 <KickModal />
               </td>
             </tr><tr>
@@ -128,8 +128,8 @@ export default class Factionlist extends React.Component {
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
                 <InformationModal />
-                <ListModal />
-                <ExpelModal />
+                <RankModal />
+                <CondecorationModal />
                 <KickModal />
               </td>
             </tr><tr>
@@ -138,8 +138,8 @@ export default class Factionlist extends React.Component {
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
                 <InformationModal />
-                <ListModal />
-                <ExpelModal />
+                <RankModal />
+                <CondecorationModal />
                 <KickModal />
               </td>
             </tr>
@@ -149,8 +149,8 @@ export default class Factionlist extends React.Component {
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
                 <InformationModal />
-                <ListModal />
-                <ExpelModal />
+                <RankModal />
+                <CondecorationModal />
                 <KickModal />
               </td>
             </tr>
@@ -160,8 +160,8 @@ export default class Factionlist extends React.Component {
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
                 <InformationModal />
-                <ListModal />
-                <ExpelModal />
+                <RankModal />
+                <CondecorationModal />
                 <KickModal />
               </td>
             </tr>
@@ -171,8 +171,8 @@ export default class Factionlist extends React.Component {
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
                 <InformationModal />
-                <ListModal />
-                <ExpelModal />
+                <RankModal />
+                <CondecorationModal />
                 <KickModal />
               </td>
             </tr>
@@ -182,8 +182,8 @@ export default class Factionlist extends React.Component {
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
                 <InformationModal />
-                <ListModal />
-                <ExpelModal />
+                <RankModal />
+                <CondecorationModal />
                 <KickModal />
               </td>
             </tr>
@@ -193,8 +193,8 @@ export default class Factionlist extends React.Component {
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
                 <InformationModal />
-                <ListModal />
-                <ExpelModal />
+                <RankModal />
+                <CondecorationModal />
                 <KickModal />
               </td>
             </tr>
@@ -204,8 +204,8 @@ export default class Factionlist extends React.Component {
               <td scope="row"></td>
               <td scope="row" id="fontawesome-container">
                 <InformationModal />
-                <ListModal />
-                <ExpelModal />
+                <RankModal />
+                <CondecorationModal />
                 <KickModal />
               </td>
             </tr>

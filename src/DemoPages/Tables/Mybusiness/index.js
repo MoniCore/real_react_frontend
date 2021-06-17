@@ -3,8 +3,8 @@ import ReactCSSTransitionGroup from "react-addons-css-transition-group";
 import { Row, Col, Card, CardBody, CardTitle, Button } from "reactstrap";
 
 import "./index.css";
-import Businesslist1 from "./Examples/Businesslist1";
-import Businesslist2 from './Examples/Businesslist2';
+import MembersList from "./Examples/MembersList";
+import ExistingStocks from './Examples/ExistingStocks';
 
 const Mybusiness = (props) => {
     return (
@@ -21,7 +21,7 @@ const Mybusiness = (props) => {
                 <Row id="businessrow">
                     <Col lg="4" >
                         <CardBody>
-                            <Businesslist1 />
+                            <MembersList />
                         </CardBody>
                     </Col>
                     <Col lg="4" id="between-table">
@@ -38,7 +38,7 @@ const Mybusiness = (props) => {
                     </Col>
                     <Col lg="4">
                         <CardBody>
-                            <Businesslist2 />
+                            <ExistingStocks />
                         </CardBody>
                     </Col>
                 </Row>

@@ -161,11 +161,15 @@ input:checked + .slider:before {
 
 .vehicles-container{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .vehicle-card-left > div{
   display: flex;
+}
+
+.vehicle-card-left{
+  padding-top: 20px;
 }
 
 #vehicle-card{
@@ -226,4 +230,8 @@ input:checked + .slider:before {
 #houses-content > div,
 #premises-content > div{
   display: flex;
+}
+
+.vehicle-card-right > img{
+  width: 250px;
 }
