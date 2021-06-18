@@ -2,6 +2,10 @@ import React from 'react';
 import { Table } from 'reactstrap';
 import '../index.css';
 
+import EditItemModal from './ExistingStocksModals/EditItemModal';
+import OrderStockModal from './ExistingStocksModals/OrderStockModal';
+import StopSellingModal from './ExistingStocksModals/StopSellingModal';
+
 
 export default class ExistingStocks extends React.Component {
   render() {
@@ -24,9 +28,9 @@ export default class ExistingStocks extends React.Component {
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <EditItemModal />
+                  <OrderStockModal />
+                  <StopSellingModal />
                 </td>
               </tr>
               <tr>
@@ -34,99 +38,99 @@ export default class ExistingStocks extends React.Component {
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <EditItemModal />
+                  <OrderStockModal />
+                  <StopSellingModal />
                 </td>
               </tr><tr>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <EditItemModal />
+                  <OrderStockModal />
+                  <StopSellingModal />
                 </td>
               </tr><tr>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <EditItemModal />
+                  <OrderStockModal />
+                  <StopSellingModal />
                 </td>
               </tr><tr>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <EditItemModal />
+                  <OrderStockModal />
+                  <StopSellingModal />
                 </td>
               </tr><tr>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <EditItemModal />
+                  <OrderStockModal />
+                  <StopSellingModal />
                 </td>
               </tr><tr>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <EditItemModal />
+                  <OrderStockModal />
+                  <StopSellingModal />
                 </td>
               </tr><tr>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <EditItemModal />
+                  <OrderStockModal />
+                  <StopSellingModal />
                 </td>
               </tr><tr>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <EditItemModal />
+                  <OrderStockModal />
+                  <StopSellingModal />
                 </td>
               </tr><tr>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <EditItemModal />
+                  <OrderStockModal />
+                  <StopSellingModal />
                 </td>
               </tr><tr>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <EditItemModal />
+                  <OrderStockModal />
+                  <StopSellingModal />
                 </td>
               </tr><tr>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <EditItemModal />
+                  <OrderStockModal />
+                  <StopSellingModal />
                 </td>
               </tr>
               <tr>
@@ -134,9 +138,9 @@ export default class ExistingStocks extends React.Component {
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <EditItemModal />
+                  <OrderStockModal />
+                  <StopSellingModal />
                 </td>
               </tr>
               <tr>
@@ -144,9 +148,9 @@ export default class ExistingStocks extends React.Component {
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <EditItemModal />
+                  <OrderStockModal />
+                  <StopSellingModal />
                 </td>
               </tr>
               <tr>
@@ -154,9 +158,9 @@ export default class ExistingStocks extends React.Component {
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <EditItemModal />
+                  <OrderStockModal />
+                  <StopSellingModal />
                 </td>
               </tr>
               <tr>
@@ -164,9 +168,9 @@ export default class ExistingStocks extends React.Component {
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <EditItemModal />
+                  <OrderStockModal />
+                  <StopSellingModal />
                 </td>
               </tr>
               <tr>
@@ -174,9 +178,9 @@ export default class ExistingStocks extends React.Component {
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <EditItemModal />
+                  <OrderStockModal />
+                  <StopSellingModal />
                 </td>
               </tr>
               <tr>
@@ -184,9 +188,9 @@ export default class ExistingStocks extends React.Component {
                 <td scope="row"></td>
                 <td scope="row"></td>
                 <td scope="row" id="fontawesome-container">
-                  <i class="fas fa-edit"></i>
-                  <i class="fas fa-truck"></i>
-                  <i class="fas fa-hand-paper"></i>
+                  <EditItemModal />
+                  <OrderStockModal />
+                  <StopSellingModal />
                 </td>
               </tr>
             </tbody>

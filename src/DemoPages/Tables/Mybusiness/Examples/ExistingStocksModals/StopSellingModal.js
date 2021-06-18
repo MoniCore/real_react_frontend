@@ -20,7 +20,7 @@ class StopSellingModal extends React.Component {
   render() {
     return (
       <div className="faction-info-modal-container">
-        <i className="far fa-money-check-edit" onClick={this.toggle} data data-toggle="tooltip" data-placement="top" title="Stop selling this item"></i>
+        <i className="fas fa-hand-paper" onClick={this.toggle} data data-toggle="tooltip" data-placement="top" title="Stop selling this item"></i>
         <Modal
           isOpen={this.state.modal}
           toggle={this.toggle}

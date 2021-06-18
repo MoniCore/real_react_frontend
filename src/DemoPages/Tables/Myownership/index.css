@@ -193,7 +193,7 @@ input:checked + .slider:before {
   letter-spacing: 2px;
   color: #35383c;
   font-weight: 500;
-  margin-top: 30px;
+  margin-top: 22px;
 }
 
 .ownership-horizon-line{
